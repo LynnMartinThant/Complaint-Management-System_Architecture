@@ -10,8 +10,8 @@ CMS requires secure login for customers, agents, and admins with GDPR compliance
 Implement **OAuth2.0 Authorization Code Flow** with PKCE for public clients (React, Mobile). Use **JWT tokens** and enforce **RBAC (Role-Based Access Control)** with roles stored in a policy database.
 
 **Consequences:**  
-✅ Secure, scalable, and stateless authentication  
-✅ Enables SSO and distributed access management  
+ Secure, scalable, and stateless authentication  
+ Enables SSO and distributed access management  
 ⚠️ Token management and refresh complexity  
 
 **Alternatives:**  
