@@ -10,9 +10,9 @@ CMS data includes structured complaint records, requiring ACID transactions and 
 Use **MySQL** as the relational database integrated via **Spring Data JPA**.
 
 **Consequences:**  
-✅ Mature, reliable, and open source  
-✅ Supports indexing and backups for large datasets  
-⚠️ Sharding and horizontal scaling require additional setup  
+Mature, reliable, and open source  
+Supports indexing and backups for large datasets  
+Sharding and horizontal scaling require additional setup  
 
 **Alternatives:**  
 - PostgreSQL → equally viable but less integrated with existing expertise.  
