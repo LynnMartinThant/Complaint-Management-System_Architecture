@@ -1,0 +1,23 @@
+# ADR 3: Frontend Framework – React + Tailwind CSS
+
+**Date:** 2025-10-1  
+**Status:** Accepted  
+
+**Context:**  
+The CMS requires a responsive and accessible user interface for web clients with high performance and modular components.
+
+**Decision:**  
+Use React.js with Tailwind CSS for building SPAs that communicate with backend APIs.
+
+**Consequences:**  
+ Component-based design and reusable UI logic  
+ Fast rendering and virtual DOM for performance  
+⚠️ Requires effective state management (Redux/Context API)
+
+**Alternatives:**  
+- Angular → heavier framework.  
+- Vue.js → less enterprise adoption.
+
+**References:**  
+- Meta (2024). *React Developer Documentation.*  
+- Tailwind Labs (2024). *Tailwind CSS Guide.*  
