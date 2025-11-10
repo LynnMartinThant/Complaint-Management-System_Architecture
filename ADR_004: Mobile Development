@@ -1,0 +1,21 @@
+# ADR 4: Mobile Platform – React Native
+
+**Date:** 2025-11-09  
+**Status:** Accepted  
+
+**Context:**  
+The CMS must allow customers to submit complaints via mobile devices with similar UX to the web version.
+
+**Decision:**  
+Use **React Native** to share logic with React web while maintaining cross-platform (iOS/Android) support.
+
+**Consequences:**  
+Shared codebase reduces development effort  
+ Supports offline-first capabilities  
+⚠️ Slightly slower than fully native apps  
+
+**Alternatives:**  
+- Flutter → good UI but less alignment with React web stack.
+
+**References:**  
+- React Native (2024). *Documentation and API Reference.*  
