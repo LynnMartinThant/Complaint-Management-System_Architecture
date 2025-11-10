@@ -1,0 +1,27 @@
+** Title** Back-end Infrastructure
+**Date:** 2025-11-09  
+**Status:** Accepted  
+
+**Context:**  
+The backend must support REST APIs, high scalability, and security integration with (OAuth2/JWT) authentication and authorization system. 
+
+**Decision:**  
+ **Spring Boot** for backend microservices. It provides built-in dependency injection, REST controllers, Spring Security, and JPA/Hibernate integration.
+
+**Consequences:**  
+ Mature ecosystem and enterprise support  
+ Rapid API development and strong integration with databases 
+ Suitable for a Hybrid Microservices Architecture layered with a clean architecture 
+⚠️ Slightly higher learning curve for configuration  
+
+**Alternatives:**  
+- Node.js → non-blocking I/O but lacks strong typing.  
+- Quarkus → new, less community support.
+
+** Why not NodeJS?
+- while suitable for lightweight APIs and real-time features, it lacks built-in enterprise features, requiring multiple third-party packages for equivalent functionality.
+
+**References:**  
+- Pivotal. (2024). *Spring Boot Reference Documentation.*  
+-Mohan, J. S. S., & Goswami, K. (2023). Performance Analysis and Comparison of Node.Js and Java Spring Boot in Implementation of Restful Applications. 
+https://doi.org/10.22541/au.169655403.34118093/v1
