@@ -8,7 +8,7 @@
 CMS services must remain maintainable and adaptable across evolving business rules. Framework dependencies must not pollute core logic.
 
 **Decision:**  
-Adopt **Clean Architecture with Layered Architectrue
+Adopt **Modular Monolith with Layered Architectrue
 - Domain Layer (entities, use cases)
 - Repository Layer (data access)
 - Service Layer (business logic)
